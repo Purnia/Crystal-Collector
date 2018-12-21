@@ -1,0 +1,82 @@
+body{
+    background-image: url(../../assets/images/houndstooth-pattern.png);
+
+}
+
+h1{
+    border-style: solid;
+    height: 50px;
+    width: 250px;
+    background-color: rgb(255, 179, 152);
+
+
+}
+
+.instructions{
+    border-style: solid;
+    height: 110px;
+    width: auto;
+    background-color: rgb(240, 214, 214)
+
+}
+
+.randomnumber{
+    border-style: solid;
+    height: 50px;
+    width:50px;
+    text-align: center;
+    background-color: rgb(195, 201, 212);
+    font-size: 20px;
+    padding:10px;
+}
+
+ .crystal{
+    border:1px solid green;
+    height:70px;
+    width:70px;
+    border-radius: 4px;
+    box-shadow: 0 9px #999;   
+} 
+
+.crystal:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.totalScore{
+    border-style: solid;
+    height: 30px;
+    width: 130px;
+    padding: 10px;
+    background-color: rgb(255, 179, 152);
+}
+
+.totalScoreNo{
+    border-style: solid;
+    height: 50px;
+    width:50px;
+    text-align: center;
+    background-color: rgb(195, 201, 212);
+    font-size: 20px;
+    padding:10px;
+  
+}
+
+.wins{
+    border-style: solid;
+    height: 20px;
+    width: 70px;
+    padding: 10px;
+    background-color: rgb(255, 179, 152);
+
+}
+
+.Losses{
+    border-style: solid;
+    height: 20px;
+    width: 70px;
+    padding: 10px;
+    background-color: rgb(255, 179, 152);
+
+}
