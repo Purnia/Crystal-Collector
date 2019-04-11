@@ -69,12 +69,15 @@ $('#crystalImg1').on('click', function () {
         reset();
 
     }
+        
 
     else if (TotalScore > RandomNumber) {
         losses++;
         $('.Losses').text(losses);
         reset();
     }
+
+    
 })
 
 $('#crystalImg2').on('click', function () {
@@ -87,11 +90,14 @@ $('#crystalImg2').on('click', function () {
         reset();
 
     }
+
+    
     else if (TotalScore > RandomNumber) {
         losses++;
         $('.Losses').text(losses);
         reset();
     }
+    
 })
 
 $('#crystalImg3').on('click', function () {
@@ -103,11 +109,14 @@ $('#crystalImg3').on('click', function () {
         $('.wins').text(win);
         reset();
     }
+
+    
     else if (TotalScore > RandomNumber) {
         losses++;
         $('.Losses').text(losses);
         reset();
     }
+   
 })
 
 $('#crystalImg4').on('click', function () {
@@ -119,11 +128,13 @@ $('#crystalImg4').on('click', function () {
         $('.wins').text(win);
         reset();
     }
+  
     else if (TotalScore > RandomNumber) {
         losses++;
         $('.Losses').text(losses);
         reset();
     }
+  
 })
 
 // ^ 7) if total score = random number win ++ and push result into wins div
